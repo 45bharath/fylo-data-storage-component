@@ -23,10 +23,66 @@ html {
 
 body {
     font-family: var(--font-main);
-    background: url(../design/images/bg-mobile.png), var(--clr-Dark-Blue);
+    background-color: var(--clr-Very-Dark-Blue);
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 100vh;
-    display: grid;
     place-items: center;
+    /* padding: 15rem; */
+
+    
+    min-height: 100vh;
+    
+    display: flex;
+}
+    
+
+.card__img-logo {
+    display: flex;
+    width: 100%;
+    background-size: 100%;
+    /* background: contain; */
+    margin: -35rem 8rem;
+    padding: 5rem 10rem;
+    text-align: center;
+    /* align-items: center; */
+    
+}
+
+.btn-friend {
+    background-color: var(--clr-Dark-Blue);
+    width: 20%;
+    height: 25vh;
+    margin: -8rem 0;
+}    
+    
+
+.card__img-folder {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+}
+
+.btn-primary {
+    background-color: var(--clr-Very-Dark-Blue);
+    padding: 1.2rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+
+.btn-secondary {
+    margin: -15rem -10rem;
+    background-color: var(--clr-Very-Dark-Blue);
+    padding: 6rem 1.15rem;
+    border-radius: 50px;
+    
+}
+
+.btn-triary {
+    background-color: var(--clr-Very-Dark-Blue);
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    display: flex;
 }
